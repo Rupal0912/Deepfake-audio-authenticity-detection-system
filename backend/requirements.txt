@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+joblib
+pandas
+numpy
+scikit-learn
+xgboost
+soundfile
+requests
+python-multipart
+torch
+torchaudio
+

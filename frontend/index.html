@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Authenticity Detector</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎧 Audio Authenticity Detector</h1>
+        <p>Upload an audio file to check if it is <strong>Real</strong> or <strong>AI-Generated</strong>.</p>
+
+        <div class="upload-box">
+            <input type="file" id="audioFile" accept="audio/*">
+            <button onclick="predict()">Analyze Audio</button>
+        </div>
+
+        <div id="loading" class="hidden">⏳ Analyzing...</div>
+
+        <div id="result" class="hidden result-box">
+            <h2>Result:</h2>
+            <p id="prediction"></p>
+            <p id="probabilities"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
