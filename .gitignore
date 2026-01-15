@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Audio / large files (if any)
+*.wav
+
+# Model artifacts (optional – keep if you want model in repo)
+# models/*.pkl
