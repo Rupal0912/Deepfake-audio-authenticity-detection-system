@@ -10,7 +10,7 @@ This project is not a demo script — it is a **fully deployed, containerized, e
 * Frontend integration
 * Dockerized deployment on Render
 
-🔗 **Live Demo**: [https://deepfake-audio-authenticity-detection-system.onrender.com](https://deepfake-audio-authenticity-detection-system.onrender.com)
+🔗 **Live Demo**: [https://deepfake-audio-authenticity-detection.onrender.com](https://deepfake-audio-authenticity-detection.onrender.com)
 
 ---
 
